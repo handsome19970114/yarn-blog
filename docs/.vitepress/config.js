@@ -2,6 +2,7 @@ module.exports = {
   title: '勤奋自强/谦虚谨慎',
   description: 'vue vitepress JavaScript blog',
   head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
+  base: '/yarn-blog/',
   themeConfig: {
     siteTitle: 'yarn',
     logo: '/images/yarn.png',
