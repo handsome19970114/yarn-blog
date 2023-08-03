@@ -1,0 +1,8 @@
+:root {
+  --vp-nav-logo-height: 42px;
+}
+
+img.logo {
+  border-radius: 50%;
+  margin-right: 10px;
+}
