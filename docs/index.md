@@ -1,5 +1,6 @@
 ---
 layout: home
+title: 为中华之崛起而读书。
 
 hero:
   name: 周恩来

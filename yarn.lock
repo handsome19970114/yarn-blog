@@ -276,15 +276,6 @@
   resolved "https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz"
   integrity sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==
 
-"@shigma/stringify-object@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.npmmirror.com/@shigma/stringify-object/-/stringify-object-3.3.0.tgz#c6611dcdf650024a9f6397580f821accd3021be3"
-  integrity sha512-tO5pn6RJp8m1ldYtqY3GEQA6+Nqp1cIZVrVx7iFVPx0YfhMqfplwrvyrQPP1cCwuyRoAyDr/BxVZYt+USm8LXQ==
-  dependencies:
-    get-own-enumerable-property-symbols "^3.0.0"
-    is-obj "^1.0.1"
-    is-regexp "^2.0.0"
-
 "@types/web-bluetooth@^0.0.17":
   version "0.0.17"
   resolved "https://registry.npmmirror.com/@types/web-bluetooth/-/web-bluetooth-0.0.17.tgz"
@@ -501,21 +492,6 @@ fsevents@~2.3.2:
   resolved "https://registry.npmmirror.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
   integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
-get-own-enumerable-property-symbols@^3.0.0:
-  version "3.0.2"
-  resolved "https://registry.npmmirror.com/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-3.0.2.tgz#b5fde77f22cbe35f390b4e089922c50bce6ef664"
-  integrity sha512-I0UBV/XOz1XkIJHEUDMZAbzCThU/H8DxmSfmdGcKPnVhu2VfFqr34jr9777IyaTYvxjedWhqVIilEDsCdP5G6g==
-
-is-obj@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmmirror.com/is-obj/-/is-obj-1.0.1.tgz#3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
-  integrity sha512-l4RyHgRqGN4Y3+9JHVrNqO+tN0rV5My76uW5/nuO4K1b6vw5G8d/cmFjP9tRfEsdhZNt0IFdZuK/c2Vr4Nb+Qg==
-
-is-regexp@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.npmmirror.com/is-regexp/-/is-regexp-2.1.0.tgz#cd734a56864e23b956bf4e7c66c396a4c0b22c2d"
-  integrity sha512-OZ4IlER3zmRIoB9AqNhEggVxqIH4ofDns5nRrPS6yQxXE1TPCUpFznBfRQmQa8uC+pXqjMnukiJBxCisIxiLGA==
-
 jsonc-parser@^3.2.0:
   version "3.2.0"
   resolved "https://registry.npmmirror.com/jsonc-parser/-/jsonc-parser-3.2.0.tgz"
@@ -644,10 +620,3 @@ vue@^3.3.4:
     "@vue/runtime-dom" "3.3.4"
     "@vue/server-renderer" "3.3.4"
     "@vue/shared" "3.3.4"
-
-vuepress-plugin-copyright@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmmirror.com/vuepress-plugin-copyright/-/vuepress-plugin-copyright-1.0.2.tgz#d5cc73af82028e073d4cd82e3ef99012ad8f79cc"
-  integrity sha512-SWiyqqU8StPGB6WxzVTbRMUyyE0g6lJoP9SDoOua5PHUeawd8XdDBAaCCGRrmd2JDMvCDZlNYHTHgsKJncuU2g==
-  dependencies:
-    "@shigma/stringify-object" "^3.3.0"
