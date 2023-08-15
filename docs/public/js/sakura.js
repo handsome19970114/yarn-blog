@@ -139,6 +139,8 @@ function startSakura() {
   canvas.width = window.innerWidth;
   canvas.setAttribute('style', 'position: fixed;left: 0;top: 0;pointer-events: none;z-index:1000');
   canvas.setAttribute('id', 'canvas_sakura');
+
+  console.log(document.getElementsByTagName('body'));
   document.getElementsByTagName('body')[0].appendChild(canvas);
   cxt = canvas.getContext('2d');
   let sakuraList = new SakuraList();
@@ -173,7 +175,7 @@ window.onresize = function () {
   canvasSnow.height = window.innerHeight;
 };
 
-img.onload = function () {
+window.onload = function () {
   startSakura();
 };
 
