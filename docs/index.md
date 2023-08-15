@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /client/diff-html
+      link: /client/index-03_01
     - theme: alt
       text: 瞻仰一下
       link: https://baike.baidu.com/link?url=_jYSQ9jcvkh7-GyDmpHIUJl4UsubbDJlZGvo87Q3o4sGtrHn7JE041rxj8lzsHq0Thqs_oI-wPO0KcE0wFeIbPsmW_Dh049935-Gxh3gKNNkLKMLukYN5hRGaAnSY1Iq
