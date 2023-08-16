@@ -59,7 +59,6 @@ function folderToTree(folderPath) {
       });
     }
   });
-  console.log(tree);
 
   return tree;
 }

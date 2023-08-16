@@ -50,7 +50,7 @@ module.exports = {
 
     nav: [
       { text: '服务端', link: '/server/nodejs-01/nodejs-01_01' },
-      { text: '客户端', link: '/client/index-03_01' },
+      { text: '客户端', link: '/client/frontend-06/frontend-06_02' },
     ],
 
     sidebar: {
