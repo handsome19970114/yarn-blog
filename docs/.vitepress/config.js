@@ -19,9 +19,14 @@ module.exports = {
   ],
   base: `/${BASE}/`,
   lastUpdated: true,
+  appearance: 'dark',
   themeConfig: {
     siteTitle: 'yarn',
     logo: '/images/yarn.png',
+    colors: {
+      primary: '#646cff',
+      footerBg: '#001529',
+    },
     search: {
       provider: 'local',
       options: {

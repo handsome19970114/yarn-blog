@@ -6,3 +6,20 @@ img.logo {
   border-radius: 50%;
   margin-right: 10px;
 }
+
+.VPDoc.has-aside .content-container {
+  max-width: 750px !important;
+}
+
+:root {
+  --vp-c-brand: #4565d8 !important;
+  --vp-c-brand-light: #708fff !important;
+  --vp-c-brand-lighter: #a4b2ff !important;
+  --vp-c-brand-lightest: #ecefff !important;
+  --vp-c-brand-dark: #4565d8 !important;
+  --vp-c-brand-darker: #23459f !important;
+  --vp-c-brand-darkest: #132f59 !important;
+  --vp-c-brand-dimm-1: rgba(112, 143, 255, 0.05) !important;
+  --vp-c-brand-dimm-2: rgba(112, 143, 255, 0.2) !important;
+  --vp-c-brand-dimm-3: rgba(112, 143, 255, 0.5) !important;
+}
