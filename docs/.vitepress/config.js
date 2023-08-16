@@ -21,7 +21,7 @@ module.exports = {
   lastUpdated: true,
   appearance: 'dark',
   themeConfig: {
-    siteTitle: 'yarn',
+    siteTitle: '为中华之崛起而读书',
     logo: '/images/yarn.png',
     colors: {
       primary: '#646cff',
