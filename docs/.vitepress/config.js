@@ -19,7 +19,7 @@ module.exports = {
   ],
   base: `/${BASE}/`,
   lastUpdated: true,
-  appearance: 'dark',
+  appearance: true, //设置用户主题
   themeConfig: {
     siteTitle: '为中华之崛起而读书',
     logo: '/images/yarn.png',
