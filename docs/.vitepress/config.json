@@ -39,6 +39,7 @@
         "07_02": "自定义指令下拉菜单隐藏",
         "07_03": "Vue中处理xlsx Json化",
         "07_04": "图片调色盘",
-        "07_05": "transition中使用animate.css"
+        "07_05": "transition中使用animate.css",
+        "07_06": "vue中使用tinymce富文本"
     }
 }

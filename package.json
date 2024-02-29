@@ -1,15 +1,16 @@
 {
-  "name": "vite-press",
-  "version": "1.0.0",
-  "license": "MIT",
-  "devDependencies": {
-    "vitepress": "^1.0.0-beta.7"
-  },
-  "scripts": {
-    "dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs",
-    "docs:preview": "vitepress preview docs"
-  },
-  "dependencies": {}
+    "name": "vite-press",
+    "version": "1.0.0",
+    "license": "MIT",
+    "devDependencies": {
+        "vitepress": "^1.0.0-beta.7"
+    },
+    "scripts": {
+        "dev": "vitepress dev docs",
+        "docs:build": "vitepress build docs",
+        "build": "vitepress build docs",
+        "docs:serve": "vitepress serve docs",
+        "docs:preview": "vitepress preview docs"
+    },
+    "dependencies": {}
 }

@@ -5,9 +5,10 @@ title: 自动滚动
 # 自动滚动
 
 ## 1. 实现思路
+
 1. 获取滚动容器
 2. 判断是否需要滚动, 需要则进行数据复制,然后设置定时器
-3. 设置滚动容器的margin-top属性
+3. 设置滚动容器的 margin-top 属性
 4. 设置边界判断
 
 ## 2. 代码实现
@@ -66,18 +67,18 @@ title: 自动滚动
 
             // 定时任务
             function intervalFn() {
-                if(!isScroll) return;
+                if (!isScroll) return;
                 timer = setInterval(function () {
                     marginTop -= 1;
                     if (Math.abs(marginTop) >= doms.content.scrollHeight / 2) {
                         setMarginTop(0);
                         marginTop = 0;
-                    }else{
+                    } else {
                         setMarginTop(marginTop);
                     }
                 }, speed);
             }
-            
+
             function clearIntervalFn() {
                 timer && clearInterval(timer);
             }
@@ -101,7 +102,7 @@ title: 自动滚动
                     isScroll = true;
                     let doubleData = [...data, ...data];
                     appendData(doubleData);
-                    clearIntervalFn()
+                    clearIntervalFn();
                     intervalFn();
                     doms.content.addEventListener('mouseenter', clearIntervalFn);
                     doms.content.addEventListener('mouseleave', leaveFn);
@@ -164,7 +165,7 @@ title: 自动滚动
             // 函数执行
             lineMouseDown(doms.line);
             stopWheel();
-            document.addEventListener('DOMContentLoaded', autoScroll)
+            document.addEventListener('DOMContentLoaded', autoScroll);
         </script>
 
         <style>
@@ -232,6 +233,8 @@ title: 自动滚动
         </style>
     </body>
 </html>
-
-
 ```
+
+## 3. 视频展示
+
+<video width="100%" height="auto" muted autoplay loop src="http://47.99.166.47:8080/files/video/20240118_095138.mp4" />
