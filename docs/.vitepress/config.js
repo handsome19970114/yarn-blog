@@ -71,7 +71,7 @@ module.exports = {
 
         footer: {
             message: '今天起来看见太阳光，心里有一点高兴。',
-            copyright: 'Copyright © 2023 yarn',
+            copyright: `乖让我来抱抱 © 2019-${new Date().getFullYear()} <a href="https://beian.miit.gov.cn/">豫ICP备2024086889号</a>`,
         },
 
         outline: 'deep',
